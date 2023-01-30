@@ -22,3 +22,9 @@ docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 myq
 
 Please open the displayed link in a browser. The notebook documents will be visible in subfolder 'work'.
 
+The prebuild image is available on docker hub, so you can use it with
+
+```
+docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 pzawad/qiskit
+```
+
