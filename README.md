@@ -1,4 +1,4 @@
-# Qiskit
+# Dockerized Qiskit
 Build Docker image with Qiskit
 
 ## Build
