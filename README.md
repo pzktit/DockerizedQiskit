@@ -6,10 +6,10 @@ Build Docker image with Qiskit
 You need Docker for this to work. Just clone this repository and do
 
 ```
-cd Qiskit
+cd DockerizedQiskit
 docker build -t myqiskit .
 ```
-Please edit image tag ('myqiskit') according to your needs. 
+Please edit image tag ('``myqiskit``') according to your needs. 
 The above will build a Docker image with Jupyter Notebook runtime environment and installs Qiskit in it.
 
 ## Run
@@ -25,6 +25,6 @@ Please open the displayed link in a browser. The notebook documents will be visi
 The prebuild image is available on docker hub, so you can use it with
 
 ```
-docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 pzawad/qiskit
+docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 pzktit/qiskit
 ```
 

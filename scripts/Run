@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm --name "qiskit" -ti -v ${PWD}/work:/home/jovyan/work -p 8888:8888 myqiskit
