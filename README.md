@@ -27,4 +27,4 @@ The prebuild image is available on docker hub, so you can use it with
 ```
 docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 pzktit/qiskit
 ```
-
+ 
