@@ -15,6 +15,7 @@ so its installation and de-installation is a breeze.
 * then you will see something like that
   ![link to the notebook](link.png "a link")
 * Open one of the provided links. You should see Jupyter Notebook web interface. Contents of you local directory is accessible in the ``work`` folder.
+  
   ![link to the notebook](notebook.png "a notebook")
   
 Now you can experiment with quantum devices. 
