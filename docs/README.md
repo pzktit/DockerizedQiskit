@@ -37,6 +37,8 @@ You can customize a Qiskit docker image on your own. Please visit [Dockerized Qi
 
 # Math test
 This in inle math $x_1+y^2=\alpha$. I've heard that display math in Markdown is also possible
-$$ \displaystyle \int\limits_a^b f(x)\,\mathrm{d}x = \sum\limits_{k=1}^{N} f(x_k) \Delta x $$
+
+$$\displaystyle \int\limits_a^b f(x) dx = \sum\limits_{k=1}^{N} f(x_k) \Delta x$$
+
 Maybe the above would work.
 
