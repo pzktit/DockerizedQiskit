@@ -35,5 +35,8 @@ Now you can experiment with quantum devices.
 
 You can customize a Qiskit docker image on your own. Please visit [Dockerized Qiskit repository](https://github.com/pzktit/DockerizedQiskit).
 
-
+# Math test
+This in inle math $x_1+y^2=\alpha$. I've heard that display math in Markdown is also possible
+$$ \displaystyle \int\limits_a^b f(x)\,\mathrm{d}x = \sum\limits_{k=1}^{N} f(x_k) \Delta x $$
+Maybe the above would work.
 
