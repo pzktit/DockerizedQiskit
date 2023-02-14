@@ -25,6 +25,6 @@ Please open the displayed link in a browser. The notebook documents will be visi
 The prebuild image is available on docker hub, so you can use it with
 
 ```
-docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 pzktit/qiskit
+docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 ghcr.io/pzktit/dockerizedqiskit
 ```
- 
+

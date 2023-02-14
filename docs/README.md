@@ -10,7 +10,7 @@ so its installation and de-installation is a breeze.
 * Install [Docker](https://www.docker.com/) on your local machine.
 * Run the following
   ```
-	docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 pzktit/qiskit
+	docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 ghcr.io/pzktit/dockerizedqiskit
 	```
 * then you will see something like that
   ![link to the notebook](link.png "a link")
@@ -27,7 +27,7 @@ Now you can experiment with quantum devices.
   ```
 	git clone https://github.com/Qiskit/qiskit-tutorials
 	cd qiskit-tutorials/tutorials
-	docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 pzktit/qiskit
+	docker run --rm --name "qiskit" -ti -v ${PWD}:/home/jovyan/work -p 8888:8888 ghcr.io/pzktit/dockerizedqiskit
 	``` 
 	Please use them in the following order: 1) circuits,  2) circuits_advanced,  3) simulators,  4) algorithms,  5) operators,  6) textbook.
 
@@ -35,10 +35,6 @@ Now you can experiment with quantum devices.
 
 You can customize a Qiskit docker image on your own. Please visit [Dockerized Qiskit repository](https://github.com/pzktit/DockerizedQiskit).
 
-# Math test
-This in inle math $x_1+y^2=\alpha$. I've heard that display math in Markdown is also possible
+Happy hacking ;)
 
-$$\displaystyle \int\limits_a^b f(x) dx = \sum\limits_{k=1}^{N} f(x_k) \Delta x$$
-
-Maybe the above would work.
 
