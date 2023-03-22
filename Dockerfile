@@ -10,4 +10,5 @@ USER $NB_UID
 # 
 # RUN conda init bash && conda activate qiskit
 
-RUN pip install qiskit[visualization]
+RUN pip install qiskit[visualization] && pip install qiskit-ibm-provider
+

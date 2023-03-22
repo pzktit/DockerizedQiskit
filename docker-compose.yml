@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  jupyter:
+    container_name: Qiskit
+    image: ghcr.io/pzktit/dockerizedqiskit
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      JUPYTER_TOKEN: "password"
+    volumes:
+        - .:/home/jovyan/work
+    ports:
+      - 8889:8888
+    restart: unless-stopped
